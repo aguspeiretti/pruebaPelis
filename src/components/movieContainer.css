@@ -1,0 +1,13 @@
+.contenedorPelis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding-top: 30px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 40px;
+  color: red;
+}
